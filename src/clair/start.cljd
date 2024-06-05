@@ -1,4 +1,4 @@
-(ns acme.main
+(ns clair.start
   (:require ["package:flutter/material.dart" :as m]
             [cljd.flutter :as f]))
 
@@ -13,7 +13,7 @@
                 .title (m/Text "Welcome to ClojureDart")))
     .body
     m/Center
-    (m/Text "FUCK YOU! get coding!"
+    (m/Text " YOU!!! get coding!"
        .style (m/TextStyle
                 .color m.Colors/red
                 .fontSize 32.0))))
